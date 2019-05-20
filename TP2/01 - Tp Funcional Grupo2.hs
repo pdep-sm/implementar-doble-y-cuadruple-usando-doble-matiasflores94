@@ -1,10 +1,12 @@
 ﻿import Text.Show.Functions
+
 --Punto 1
 data Planta = Planta {
     nombre::String,
     puntosDeVida :: Int,
     generaSoles :: Int,
     poderDeAtaque :: Int
+	efecto :: AplicarEfecto
 }deriving (Show)
 
 data Zombie = Zombie {
