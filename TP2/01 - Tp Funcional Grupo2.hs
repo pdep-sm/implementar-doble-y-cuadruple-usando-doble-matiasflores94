@@ -1,4 +1,5 @@
-﻿--Punto 1
+﻿import Text.Show.Functions
+--Punto 1
 data Planta = Planta {
     nombre::String,
     puntosDeVida :: Int,
